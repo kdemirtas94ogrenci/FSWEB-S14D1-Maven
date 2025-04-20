@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MainTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.326 s <<< FAILURE! - in MainTest
-testGetAreaRectangle  Time elapsed: 0.015 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <2,00> but was: <2.00>
-	at MainTest.testGetAreaRectangle(MainTest.java:125)
-
-testGetVolumeRectangle  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <6,00> but was: <6.00>
-	at MainTest.testGetVolumeRectangle(MainTest.java:145)
-
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.231 s - in MainTest

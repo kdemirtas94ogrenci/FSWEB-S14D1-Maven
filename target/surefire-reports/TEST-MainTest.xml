@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="1.326" tests="15" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="1.231" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,12 +15,12 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TR"/>
     <property name="sun.boot.library.path" value="C:\Users\Kubra\.jdks\corretto-17.0.14\bin"/>
-    <property name="sun.java.command" value="C:\Users\Kubra\AppData\Local\Temp\surefire10925290206402900117\surefirebooter6805116997716987362.jar C:\Users\Kubra\AppData\Local\Temp\surefire10925290206402900117 2025-04-20T12-32-36_620-jvmRun1 surefire7775862606448848260tmp surefire_05383777689694363848tmp"/>
+    <property name="sun.java.command" value="C:\Users\Kubra\AppData\Local\Temp\surefire10805753055465037313\surefirebooter5571840217172338515.jar C:\Users\Kubra\AppData\Local\Temp\surefire10805753055465037313 2025-04-20T21-01-58_291-jvmRun1 surefire12625823859378233680tmp surefire_01681390352498885494tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Kubra\Desktop\hesapMakinesi\FSWEB-S14D1-Maven\target\test-classes;C:\Users\Kubra\Desktop\hesapMakinesi\FSWEB-S14D1-Maven\target\classes;C:\Users\Kubra\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Kubra\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Kubra\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Kubra\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Kubra\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Kubra\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kubra\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Kubra\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Kubra\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Kubra\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Kubra\.m2\repository\org\json\json\20240205\json-20240205.jar;C:\Users\Kubra\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Kubra"/>
-    <property name="user.language" value="tr"/>
+    <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="C:\Users\Kubra\.jdks\corretto-17.0.14"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Kubra\AppData\Local\Temp\surefire10925290206402900117\surefirebooter6805116997716987362.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kubra\AppData\Local\Temp\surefire10805753055465037313\surefirebooter5571840217172338515.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.14+7-LTS"/>
@@ -61,25 +61,17 @@
   </properties>
   <testcase name="testRectangleAccessModifiers" classname="MainTest" time="0.032"/>
   <testcase name="testCircleAccessModifiers" classname="MainTest" time="0"/>
-  <testcase name="testGetVolumeCylinder" classname="MainTest" time="0"/>
   <testcase name="testEmployeeAccessModifiers" classname="MainTest" time="0"/>
-  <testcase name="testCircleTypes" classname="MainTest" time="0.016"/>
+  <testcase name="testCircleTypes" classname="MainTest" time="0.003"/>
   <testcase name="testEmployeeSubClasses" classname="MainTest" time="0"/>
+  <testcase name="testGetArea" classname="MainTest" time="0"/>
   <testcase name="testRectangleTypes" classname="MainTest" time="0"/>
   <testcase name="testEmployeeTypes" classname="MainTest" time="0"/>
   <testcase name="testCuboidAccessModifiers" classname="MainTest" time="0"/>
   <testcase name="testCylinderAccessModifiers" classname="MainTest" time="0"/>
   <testcase name="testCuboidTypes" classname="MainTest" time="0"/>
   <testcase name="testCylinderTypes" classname="MainTest" time="0"/>
-  <testcase name="testGetAreaRectangle" classname="MainTest" time="0.015">
-    <failure message="expected: &lt;2,00&gt; but was: &lt;2.00&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2,00> but was: <2.00>
-	at MainTest.testGetAreaRectangle(MainTest.java:125)
-]]></failure>
-  </testcase>
-  <testcase name="testGetAreaCircle" classname="MainTest" time="0"/>
-  <testcase name="testGetVolumeRectangle" classname="MainTest" time="0">
-    <failure message="expected: &lt;6,00&gt; but was: &lt;6.00&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <6,00> but was: <6.00>
-	at MainTest.testGetVolumeRectangle(MainTest.java:145)
-]]></failure>
-  </testcase>
+  <testcase name="testGetAreaRectangle" classname="MainTest" time="0"/>
+  <testcase name="testGetVolume" classname="MainTest" time="0.016"/>
+  <testcase name="testGetVolumeRectangle" classname="MainTest" time="0"/>
 </testsuite>
